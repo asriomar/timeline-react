@@ -1,0 +1,49 @@
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+.timeline-container {
+  position: relative;
+  margin-left: 40px; /* Adjust the distance of the line from the timeline */
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px; /* Adjust the position of the line */
+  width: 2px;
+  background-color: #cbd5e0; /* Adjust the color of the line */
+  content: '';
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px; /* Adjust the padding of the timeline items */
+}
+
+.timeline-item {
+  margin-bottom: 30px; /* Adjust the space between timeline items */
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: -8px; /* Adjust the vertical position of the bullet */
+  left: -8px; /* Adjust the horizontal position of the bullet */
+  width: 24px; /* Adjust the size of the bullet */
+  height: 24px; /* Adjust the size of the bullet */
+  background-color: red; /* Adjust the color of the bullet */
+  border-radius: 50%; /* Make it a circle */
+  border: solid white 3px;
+}
+
+.timeline-content {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
