@@ -17,7 +17,7 @@ function Timeline() {
               <div className="timeline-content">
                 <h3 className="text-xl font-semibold mb-2">Event 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <span className="text-gray-500 text-sm mt-2">January 2020</span>
+                <span className="text-gray-500 text-sm mt-2">January 2024</span>
               </div>
             </div>
             <div className="timeline-item">
@@ -27,7 +27,7 @@ function Timeline() {
                   Sed do eiusmod tempor incididunt ut labore et dolore magna
                   aliqua.
                 </p>
-                <span className="text-gray-500 text-sm mt-2">March 2020</span>
+                <span className="text-gray-500 text-sm mt-2">March 2024</span>
               </div>
             </div>
             <div className="timeline-item">
@@ -37,7 +37,7 @@ function Timeline() {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <span className="text-gray-500 text-sm mt-2">June 2020</span>
+                <span className="text-gray-500 text-sm mt-2">June 2024</span>
               </div>
             </div>
             <div className="timeline-item">
@@ -48,7 +48,7 @@ function Timeline() {
                   cillum dolore eu fugiat nulla pariatur.
                 </p>
                 <span className="text-gray-500 text-sm mt-2">
-                  September 2020
+                  September 2024
                 </span>
               </div>
             </div>
